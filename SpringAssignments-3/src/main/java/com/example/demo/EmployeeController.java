@@ -52,7 +52,7 @@ class EmployeeController
       });
   }
 
-  @DeleteMapping("/employeeDelete/{id}") //DELETE
+  @DeleteMapping("/employees/{id}") //DELETE
   void deleteEmployee(@PathVariable Long id) 
   	{repository.deleteById(id);}
 }
