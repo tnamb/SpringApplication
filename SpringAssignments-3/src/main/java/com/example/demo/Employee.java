@@ -17,7 +17,7 @@ class Employee
   private @Id @GeneratedValue Long id;
   private String name;
   private String role;
-  private Map<Integer, Employee> data;
+ // private Map<Integer, Employee> data;
 
   Employee() {}
 
@@ -28,15 +28,13 @@ class Employee
     this.role = role;
     
   }
-  
-	 Employee(Map<Integer, Employee> data) 
-	 	{ this.data = data; }
-	  
-	 public Map<Integer, Employee> getMap() 
-	 	{ return this.data; }
-	
-	 public void setMap(Map<Integer, Employee> data) 
-	 	{ this.data = data; }
+	/*
+	 * Employee(Map<Integer, Employee> data) { this.data = data; }
+	 * 
+	 * public Map<Integer, Employee> getMap() { return this.data; }
+	 * 
+	 * public void setMap(Map<Integer, Employee> data) { this.data = data; }
+	 */
 	 
 	  
 	 
