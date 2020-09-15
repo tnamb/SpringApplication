@@ -46,17 +46,27 @@
 		</dependency>
 	</dependencies>
 
+<!-- MAVEN REPOSITORY -->
 
-<distributionManagement>
-    <repository>
-        <id>releases</id>
-        <url> https://mymavenrepo.com/repo/uMwS4GluwM1J6BJDGDTt</url>
-    </repository>
-    <snapshotRepository>
-        <id>snapshots</id>
-        <url>http://domain:port/content/repositories/snapshots</url>
-    </snapshotRepository>
-</distributionManagement>
+	<repositories>
+        <repository>
+            <id>myMavenRepoRead</id>
+            <url>${https://mymavenrepo.com/repo/rkrzhVmFYDRU7FdboUaY/}</url>
+        </repository>
+    </repositories>
+
+    <distributionManagement>
+        <repository>
+            <id>myMavenRepoWrite</id>
+            <url>${https://mymavenrepo.com/repo/uMwS4GluwM1J6BJDGDTt/}</url>
+        </repository>
+        <snapshotRepository>
+            <id>myMavenRepoWrite</id>
+            <url>${https://mymavenrepo.com/repo/uMwS4GluwM1J6BJDGDTt/}</url>
+        </snapshotRepository>
+    </distributionManagement>
+
+<!-- MAVEN REPOSITORY -->
 
 	<build>
 		<plugins>
