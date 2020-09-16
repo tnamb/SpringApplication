@@ -14,9 +14,9 @@
 	<name>SpringAssignments-3</name>
 	<description>Demo project for Spring Boot</description>
 
-	<properties>
+<!-- 	<properties>
 		<java.version>1.8</java.version>
-	</properties>
+	</properties> -->
 
 	<dependencies>
 		<dependency>
